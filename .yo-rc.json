@@ -1,0 +1,45 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitCompany": "",
+    "baseName": "Micro1Invoice",
+    "packageName": "app.shop",
+    "packageFolder": "app/shop",
+    "serverPort": 8081,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.0.1",
+    "jwtSecretKey": "N2M0Y2M3ZWMzZWQxM2I2YjEyZjM2MmRhYmFjNTIwYTNjYTEzMDNiODllMGFlZDVlMTkxNDEyY2M2ODcxNGEyMTU1Y2I5MWNhNzM4YzJlZTRhMTJmZGRjYTQ2NmU0Y2Q2YzdkNmM5NTNkNzAzNzE2ZjA5ZWYzODI2OThmNTMwODk=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "SoungaloYeo",
+  "repository-name": "Micro-1-Invoice"
+}
